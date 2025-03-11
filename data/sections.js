@@ -3,7 +3,7 @@ const sections = [
       title: "曼波",
       rows: [
         [
-          { text: "哦耶~", param: "哦耶~" },
+          { text: "哦耶~", param: "哦耶" },
         ],
         [
           { text: "哦耶", param: "哦耶1" },
@@ -22,6 +22,33 @@ const sections = [
         ],
         [
           { text: "嘿嘿嘿嘿嘿", param: "嘿嘿嘿嘿嘿" },
+        ],
+      ]
+    },
+    {
+      title: "叮咚鸡",
+      rows: [
+        [
+          { text: "宝宝", param: "宝宝" },
+          { text: "肚肚", param: "肚肚" },
+          { text: "打雷啦", param: "打雷啦" }
+        ],
+        [
+          { text: "雷雷", param: "雷雷" },
+          { text: "打打", param: "打打" },
+          { text: "打肚肚", param: "打肚肚" }
+        ],
+        [
+          { text: "雷雷啦", param: "雷雷啦" },
+          { text: "打雷啦", param: "打雷啦" },
+        ],
+        [
+          { text: "有款", param: "有款" },
+          { text: "游戏", param: "游戏" },
+          { text: "越打越年轻", param: "越打越年轻" }
+        ],
+        [
+          { text: "就是手机和平精英", param: "就是手机和平精英" },
         ],
       ]
     },

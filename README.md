@@ -5,7 +5,7 @@
 </p>
 <div align="center">
 
-# 糕盒Voice|<sub>Ice Cream Voice Button</sub>
+# 米米留声机 <sub>Ice Cream Voice Button</sub>
 <!-- markdownlint-disable-next-line MD036 -->
 _💕 关注雪糕Cheese喵，关注雪糕Cheese谢谢喵 💕_
 </div>
@@ -55,6 +55,8 @@ const sections = [
 ### 参考项目
 
 - [rarebox](https://github.com/Initsnow/rarebox)
+
+在原项目基础上实现了动态增加按钮，文件分离等优化
 
 ### 未来更新方向
 

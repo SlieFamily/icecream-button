@@ -65,13 +65,24 @@ const getBuffer = function (url) {
 };
 
 var ottocount = 0;
+let isReplaced = false;
 function otto(event) {
     let kj = event.currentTarget;
-    kj.classList.add("shaky");
-    setTimeout(function () {
-        kj.classList.remove("shaky");
-    }, 1000);
-    ottocount++;
+    const coverImg = kj.querySelector("img");
+    if (ottocount >= 10 && !isReplaced) {
+        coverImg.style.opacity = 0;
+        setTimeout(() => {
+          coverImg.src = "img/top2.jpg"; // 隐藏图片
+          coverImg.style.opacity = 1;
+          isReplaced = true;
+        }, 500);
+    } else if (ottocount < 10) {
+        kj.classList.add("shaky");
+        setTimeout(() => {
+          kj.classList.remove("shaky");
+        }, 1000);
+        ottocount++;
+      } 
 }
 
   

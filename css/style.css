@@ -25,7 +25,7 @@ body {
 
 #head {
   width: 86%;
-  height: 160px;
+  height: 230px;
   max-width: 530px;
   background-color: #C16FB4;
   border-radius: 0 0 10px 10px;
@@ -40,7 +40,7 @@ body {
   }
 }
 #cover {
-  max-height: 180px;
+  max-height: 250px;
   overflow: hidden;
   position: relative;
   top: 4px;
@@ -51,6 +51,7 @@ body {
   object-fit: fill;
   width: 100%;
   height: 100%;
+  transition: opacity 0.5s ease-in-out;
 }
 #buttom img {
   border-radius: 10px;

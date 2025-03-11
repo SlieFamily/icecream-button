@@ -3,7 +3,7 @@ const sections = [
       title: "曼波",
       rows: [
         [
-          { text: "哦耶~", param: "哦耶" },
+          { text: "哦耶！", param: "哦耶" },
         ],
         [
           { text: "哦耶", param: "哦耶1" },
@@ -49,6 +49,27 @@ const sections = [
         ],
         [
           { text: "就是手机和平精英", param: "就是手机和平精英" },
+        ],
+        [
+          { text: "你能给我点个外卖吃吗", param: "你能给我点个外卖吃吗" },
+        ],
+        [
+          { text: "叮咚鸡", param: "叮咚鸡" },
+          { text: "大狗", param: "大狗" },
+          { text: "叫叫叫", param: "叫叫叫" }
+        ],
+        [
+          { text: "带", param: "带" },
+          { text: "兴奋", param: "兴奋" },
+          { text: "兴奋劲", param: "兴奋劲" }
+        ],
+        [
+          { text: "一段一段带一段", param: "一段一段带一段" },
+        ],
+        [
+          { text: "袋鼠机", param: "袋鼠机" },
+          { text: "出示出示", param: "出示出示" },
+          { text: "见缸马", param: "见缸马" }
         ],
       ]
     },

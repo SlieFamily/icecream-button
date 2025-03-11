@@ -1,5 +1,31 @@
 const sections = [
     {
+      title: "曼波",
+      rows: [
+        [
+          { text: "哦耶~", param: "哦耶~" },
+        ],
+        [
+          { text: "哦耶", param: "哦耶1" },
+          { text: "哦耶", param: "哦耶2" },
+          { text: "哦哦耶", param: "哦哦耶" }
+        ],
+        [
+          { text: "曼波", param: "曼波" },
+          { text: "曼波", param: "曼波" },
+          { text: "曼曼波", param: "曼曼波" }
+        ],
+        [
+          { text: "哈基米", param: "哈基米" },
+          { text: "哈基米", param: "哈基米" },
+          { text: "哈！基米", param: "哈！基米" }
+        ],
+        [
+          { text: "嘿嘿嘿嘿嘿", param: "嘿嘿嘿嘿嘿" },
+        ],
+      ]
+    },
+    {
       title: "大角牛",
       rows: [
         [
@@ -41,16 +67,6 @@ const sections = [
         ],
       ]
     },
-    {
-      title: "藏话",
-      warning: "⚠音量に注意⚠", // 可选警告信息
-      rows: [
-        [
-          { text: "你怎么说藏话啊", param: "你怎么说藏话啊" },
-          { text: "我是你爹", param: "我是你爹" }
-        ],
-        // 其他行数据...
-      ]
-    },
+
     // 其他区块...
   ];

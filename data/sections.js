@@ -1,4 +1,3 @@
-// 结构化按钮数据
 const sections = [
     {
       title: "稀有",

@@ -3,7 +3,7 @@ const sections = [
       title: "公式直播",
       rows: [
         [
-          { text: "Loading……", param: "Loading" },
+          { text: "Loading……", param: "loading" },
         ],
         [
           { text: "晚上好", param: "晚上好" },
@@ -170,6 +170,9 @@ const sections = [
       rows: [
         [
           { text: "反击的号角", param: "反击的号角" },
+        ],
+        [
+          { text: "你看我会骂人吗", param: "会骂人吗" },
         ],
         [
           { text: "关注雪糕谢谢喵", param: "关注" },

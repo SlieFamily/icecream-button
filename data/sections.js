@@ -59,6 +59,26 @@ const sections = [
       ]
     },
     {
+      title: "怪话",
+      rows: [
+        [
+          { text: "变态", param: "变态" },
+          { text: "PrPr", param: "pr" },
+          { text: "吃吃鸟蛋", param: "吃吃鸟蛋" }
+        ],
+        [
+          { text: "妈咪妈咪哄", param: "妈咪妈咪哄" },
+          { text: "打出来了", param: "打出来了" },
+        ],
+        [
+          { text: "天灵灵地灵灵", param: "天灵灵地灵灵" },
+        ],
+        [
+          { text: "听不懂中国话是吧", param: "听不懂中国话是吧" },
+        ],
+      ]
+    },
+    {
       title: "叮咚鸡",
       rows: [
         [

@@ -1,4 +1,37 @@
 const sections = [
+  {
+      title: "公式直播",
+      rows: [
+        [
+          { text: "Loading……", param: "Loading" },
+        ],
+        [
+          { text: "晚上好", param: "晚上好" },
+          { text: "宝宝们吃饭了吗", param: "宝宝们吃饭了吗" },
+        ],
+        [
+          { text: "吃饭了吗(电台版)", param: "吃饭了吗(电台版)" },
+        ],
+        [
+          { text: "打喷嚏", param: "打喷嚏" },
+          { text: "脸红了", param: "脸红了" },
+          { text: "哈哈哈", param: "哈哈哈" }
+        ],
+        [
+          { text: "oi！", param: "oi" },
+          { text: "假哭", param: "假哭" },
+          { text: "生日祝福", param: "生日祝福" }
+        ],
+        [
+          { text: "想笑", param: "想笑" },
+          { text: "那咋了", param: "那咋了" },
+          { text: "瓦瓦时间", param: "瓦瓦时间" }
+        ],
+        [
+          { text: "晚安晚安拜拜", param: "晚安拜拜" },
+        ],
+      ]
+    },
     {
       title: "曼波",
       rows: [
@@ -112,6 +145,34 @@ const sections = [
         ],
         [
           { text: "大角牛挺胸向前", param: "大角牛挺胸向前" },
+        ],
+      ]
+    },
+    {
+      title: "Chipi",
+      rows: [
+        [
+          { text: "Chipi", param: "chipi" },
+          { text: "Chapa", param: "chapa" },
+          { text: "Dubi", param: "dubi" },
+          { text: "Daba", param: "daba" },
+        ],
+        [
+          { text: "Magico Mi Dubi Dubi", param: "magico" },
+        ],
+        [
+          { text: "Boom Boom Boom Boom", param: "boom" },
+        ],
+      ]
+    },
+    {
+      title: "持续更新……",
+      rows: [
+        [
+          { text: "反击的号角", param: "反击的号角" },
+        ],
+        [
+          { text: "关注雪糕谢谢喵", param: "关注" },
         ],
       ]
     },

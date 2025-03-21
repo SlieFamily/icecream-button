@@ -45,7 +45,7 @@ const sections = [
           { text: "给我打打米", param: "给我打打米" },
         ],
         [
-          { text: "51522", param: "giggity1" },
+          { text: "51522", param: "giggity2" },
           { text: "giggity", param: "giggity1" },
         ],
         [

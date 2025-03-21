@@ -3,7 +3,7 @@ const sections = [
       title: "公式直播",
       rows: [
         [
-          { text: "Loading……", param: "loading" },
+          { text: "Loading……", param: "loading_short_ver" },
         ],
         [
           { text: "晚上好", param: "晚上好" },
@@ -29,6 +29,27 @@ const sections = [
         ],
         [
           { text: "晚安晚安拜拜", param: "晚安拜拜" },
+        ],
+      ]
+    },
+    {
+      title: "烂梗王",
+      rows: [
+        [
+          { text: "地地道道", param: "地地道道" },
+          { text: "来财", param: "来财" },
+          { text: "灵感菇", param: "灵感菇" }
+        ],
+        [
+          { text: "麦当劳汉堡", param: "麦当劳汉堡" },
+          { text: "给我打打米", param: "给我打打米" },
+        ],
+        [
+          { text: "51522", param: "giggity1" },
+          { text: "giggity", param: "giggity1" },
+        ],
+        [
+          { text: "汉堡～起司汉堡", param: "汉堡～起司汉堡" },
         ],
       ]
     },
@@ -186,7 +207,7 @@ const sections = [
       ]
     },
     {
-      title: "持续更新……",
+      title: "伟佳片头",
       rows: [
         [
           { text: "反击的号角", param: "反击的号角" },
@@ -194,6 +215,20 @@ const sections = [
         [
           { text: "你看我会骂人吗", param: "会骂人吗" },
         ],
+        [
+          { text: "那你爱喝什么茶呀", param: "爱喝茶" },
+        ],
+        [
+          { text: "我是主包，救命呀", param: "我是主包" },
+        ],
+        [
+          { text: "关注雪糕谢谢喵", param: "关注" },
+        ],
+      ]
+    },
+    {
+      title: "持续更新中……",
+      rows: [
         [
           { text: "关注雪糕谢谢喵", param: "关注" },
         ],

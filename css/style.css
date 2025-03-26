@@ -141,6 +141,43 @@ button {
   }
 }
 
+/* 侧边栏容器 */
+.music-sidebar {
+  position: fixed;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 340px; /* 与iframe宽度一致 */
+  background: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  z-index: 9999;
+}
+
+/* 浮悬窗按钮（可选） */
+.toggle-btn {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  width: 50px;
+  height: 50px;
+  background: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+}
+
+/* 隐藏侧边栏时的过渡效果 */
+.hidden {
+  opacity: 0;
+  transform: translateY(-50%) translateX(100%);
+  transition: all 0.3s ease;
+}
+
 .shaky {
   display: inline-block;
   padding: 1px;

@@ -25,7 +25,7 @@ body {
 
 #head {
   width: 86%;
-  height: 230px;
+  height: 200px;
   max-width: 530px;
   background-color: #C16FB4;
   border-radius: 0 0 10px 10px;
@@ -40,7 +40,7 @@ body {
   }
 }
 #cover {
-  max-height: 250px;
+  max-height: 180px;
   overflow: hidden;
   position: relative;
   top: 4px;
@@ -48,7 +48,7 @@ body {
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.13), 0 1px 1px 0 rgba(0, 0, 0, 0.11);
 }
 #cover img {
-  object-fit: fill;
+  object-fit: cover;
   width: 100%;
   height: 100%;
   transition: opacity 0.5s ease-in-out;
@@ -129,6 +129,19 @@ button {
   }
 }
 
+.about {
+  width: 80%;
+  max-width: 510px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 5px 0;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.13), 0 1px 1px 0 rgba(0, 0, 0, 0.11);
+}
+.about a {
+  color: pink;
+}
+
 /* 侧边栏容器 */
 .music-sidebar {
   position: fixed;
@@ -162,25 +175,17 @@ button {
   cursor: pointer;
   transition: all 0.3s ease;
   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  z-index: 9999;
+}
+
+.toggle-btn:hover {
+  background-color: #ff46da3a; /* 悬停时颜色加深 */
 }
 
 .toggle-btn img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-}
-
-.about {
-  width: 80%;
-  max-width: 510px;
-  background-color: white;
-  border-radius: 10px;
-  padding: 15px;
-  margin: 5px 0;
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.13), 0 1px 1px 0 rgba(0, 0, 0, 0.11);
-}
-.about a {
-  color: pink;
 }
 
 .shaky {

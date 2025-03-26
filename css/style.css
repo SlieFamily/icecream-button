@@ -77,18 +77,6 @@ body {
   margin: 10px 0;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.13), 0 1px 1px 0 rgba(0, 0, 0, 0.11);
 }
-.about {
-  width: 80%;
-  max-width: 510px;
-  background-color: white;
-  border-radius: 10px;
-  padding: 15px;
-  margin: 5px 0;
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.13), 0 1px 1px 0 rgba(0, 0, 0, 0.11);
-}
-.about a {
-  color: pink;
-}
 .title {
   margin: 0 0 0 5px;
   font-size: 20px;
@@ -144,7 +132,7 @@ button {
 /* 侧边栏容器 */
 .music-sidebar {
   position: fixed;
-  right: 0;
+  right: -340px;
   top: 50%;
   transform: translateY(-50%);
   width: 330px; /* 与iframe宽度一致 */
@@ -159,12 +147,6 @@ button {
   transition: all 0.3s ease;
 }
 
-.music-sidebar.hidden {
-  opacity: 0;
-  right: -340px;
-  transition: all 0.3s ease;
-}
-
 .music-container {
   opacity: 0.9; /* 内容透明度90% */
 }
@@ -172,9 +154,9 @@ button {
 .toggle-btn {
   position: fixed;
   right: 20px;
-  bottom: 20px;
-  width: 50px;
-  height: 50px;
+  bottom: 60px;
+  width: 60px;
+  height: 60px;
   background: #ff74e33a;
   border: none;
   cursor: pointer;
@@ -188,7 +170,18 @@ button {
   object-fit: cover;
 }
 
-
+.about {
+  width: 80%;
+  max-width: 510px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 5px 0;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.13), 0 1px 1px 0 rgba(0, 0, 0, 0.11);
+}
+.about a {
+  color: pink;
+}
 
 .shaky {
   display: inline-block;

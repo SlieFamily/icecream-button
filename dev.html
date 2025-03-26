@@ -24,10 +24,11 @@
         />
       </div>
   </div>
-  <!-- 音乐侧边栏 -->
   <div class="music-sidebar" id="musicSidebar">
-    <!-- 嵌入网易云音乐iframe -->
-    <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=450 src="//music.163.com/outchain/player?type=4&id=1005393236&auto=0&height=430"></iframe>
+    <div class="music-container">
+      <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=450 
+          src="//music.163.com/outchain/player?type=4&id=1005393236&auto=0&height=430"></iframe>
+    </div>
 </div>
 
   <!-- 动态内容 -->
@@ -55,7 +56,7 @@
   </div>
   <!-- 展开/收起按钮 -->
   <button class="toggle-btn" onclick="toggleSidebar()">
-    音乐
+    <img src="img/toggle.gif" alt="播放器按钮">
   </button>
 </body>
 </html>

@@ -18,6 +18,11 @@ const sections = [
           { text: "哈哈哈", param: "哈哈哈" }
         ],
         [
+          { text: "hello酷狗", param: "酷狗" },
+          // { text: "脸红了", param: "脸红了" },
+          // { text: "哈哈哈", param: "哈哈哈" }
+        ],
+        [
           { text: "oi！", param: "oi" },
           { text: "假哭", param: "假哭" },
           { text: "生日祝福", param: "生日祝福" }

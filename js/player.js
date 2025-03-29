@@ -66,23 +66,45 @@ const getBuffer = function (url) {
 
 var ottocount = 0;
 let isReplaced = false;
+
 function otto(event) {
     let kj = event.currentTarget;
     const coverImg = kj.querySelector("img");
-    if (ottocount >= 10 && !isReplaced) {
-        coverImg.style.opacity = 0;
-        setTimeout(() => {
-          coverImg.src = "img/top2.jpg"; // 隐藏图片
-          coverImg.style.opacity = 1;
-          isReplaced = true;
-        }, 500);
-    } else if (ottocount < 10) {
-        kj.classList.add("shaky");
-        setTimeout(() => {
-          kj.classList.remove("shaky");
-        }, 1000);
+
+    // 第一阶段：点击10次切换图片
+    if (!isReplaced) {
         ottocount++;
-      } 
+        
+        if (ottocount >= 10) {
+            // 切换图片逻辑
+            coverImg.style.opacity = 0;
+            setTimeout(() => {
+                coverImg.src = "img/top2.jpg";
+                coverImg.style.opacity = 1;
+                isReplaced = true;
+                ottocount = 0;  // 重置计数器用于第二阶段
+            }, 500);
+        } else {
+            // 添加抖动效果
+            kj.classList.add("shaky");
+            setTimeout(() => {
+                kj.classList.remove("shaky");
+            }, 1000);
+        }
+    }
+    // 第二阶段：切换后点击5次跳转
+    else {
+        ottocount++;
+        if (ottocount >= 5) {
+            window.location.href = "/icetap";
+        } else {
+            // 添加抖动效果
+            kj.classList.add("shaky");
+            setTimeout(() => {
+                kj.classList.remove("shaky");
+            }, 1000);
+        }
+    }
 }
 
   

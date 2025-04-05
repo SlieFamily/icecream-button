@@ -43,7 +43,7 @@ const sections = [
         [
           { text: "享受", param: "享受" },
           { text: "权威", param: "权威" },
-          { text: "灵感菇", param: "灵感菇" }
+          { text: "又要到饭了", param: "又要到饭了" }
         ],
         [
           { text: "地地道道", param: "地地道道" },

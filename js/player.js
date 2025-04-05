@@ -71,18 +71,17 @@ function otto(event) {
     let kj = event.currentTarget;
     const coverImg = kj.querySelector("img");
 
-    // 第一阶段：点击10次切换图片
+    // 点击10次切换图片
     if (!isReplaced) {
         ottocount++;
         
         if (ottocount >= 10) {
-            // 切换图片逻辑
             coverImg.style.opacity = 0;
             setTimeout(() => {
                 coverImg.src = "img/top2.jpg";
                 coverImg.style.opacity = 1;
                 isReplaced = true;
-                ottocount = 0;  // 重置计数器用于第二阶段
+                ottocount = 0;
             }, 500);
         } else {
             // 添加抖动效果
@@ -92,11 +91,11 @@ function otto(event) {
             }, 1000);
         }
     }
-    // 第二阶段：切换后点击5次跳转
+    // 切换后点击5次跳转
     else {
         ottocount++;
         if (ottocount >= 5) {
-            window.location.href = "/icetap";
+            window.location.href = "/icetap/index.html";
         } else {
             // 添加抖动效果
             kj.classList.add("shaky");

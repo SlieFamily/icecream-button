@@ -29,12 +29,17 @@
   <script src="data/sections.js"></script>
   <script src="js/render.js"></script>
   <script src="js/player.js"></script>
-  
+
   <!-- 展开/收起按钮 -->
   <button class="toggle-btn" onclick="toggleSidebar()">
     <img src="img/toggle.gif" alt="播放器按钮">
   </button>
-
+  <div class="music-sidebar" id="musicSidebar">
+    <div class="music-container">
+      <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=450 
+          src="//music.163.com/outchain/player?type=4&id=1005393236&auto=0&height=430"></iframe>
+    </div>
+  </div>
   <div class="about">
     <div style="font-size: 20px; font-weight: bold", id="buttom">
       <p>关于</p>
@@ -53,7 +58,6 @@
       <p>参考网站：<a href="https://rarebox.pages.dev/">罕见盒</a></p>
     </div>
   </div>
-  
 </body>
 </html>
 

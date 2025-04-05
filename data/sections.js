@@ -19,8 +19,8 @@ const sections = [
         ],
         [
           { text: "hello酷狗", param: "酷狗" },
-          // { text: "脸红了", param: "脸红了" },
-          // { text: "哈哈哈", param: "哈哈哈" }
+          { text: "lovely", param: "lovely" },
+          { text: "皮套勾", param: "皮套勾" }
         ],
         [
           { text: "oi！", param: "oi" },
@@ -41,9 +41,19 @@ const sections = [
       title: "烂梗王",
       rows: [
         [
+          { text: "享受", param: "享受" },
+          { text: "权威", param: "权威" },
+          { text: "灵感菇", param: "灵感菇" }
+        ],
+        [
           { text: "地地道道", param: "地地道道" },
           { text: "来财", param: "来财" },
           { text: "灵感菇", param: "灵感菇" }
+        ],
+        [
+          { text: "叭叭叭", param: "叭叭叭" },
+          { text: "捏捏捏", param: "捏捏捏" },
+          { text: "嘟嘟嘟", param: "嘟嘟嘟" }
         ],
         [
           { text: "麦当劳汉堡", param: "麦当劳汉堡" },
@@ -95,8 +105,10 @@ const sections = [
         [
           { text: "妈咪妈咪哄", param: "妈咪妈咪哄" },
           { text: "打出来了", param: "打出来了" },
+          { text: "我是逆蝶", param: "我是逆蝶" },
         ],
         [
+          { text: "麻将拱出去", param: "拱出去" },
           { text: "天灵灵地灵灵", param: "天灵灵地灵灵" },
         ],
         [
@@ -227,7 +239,7 @@ const sections = [
           { text: "我是主包，救命呀", param: "我是主包" },
         ],
         [
-          { text: "关注雪糕谢谢喵", param: "关注" },
+          { text: "再祸害雪撬犬五百年", param: "五百年" },
         ],
       ]
     },

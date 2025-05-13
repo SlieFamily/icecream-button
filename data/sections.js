@@ -51,6 +51,10 @@ const sections = [
           { text: "灵感菇", param: "灵感菇" }
         ],
         [
+          { text: "花都谢了", param: "花都谢了" },
+          { text: "波比啵啵", param: "波比啵啵" }
+        ],
+        [
           { text: "叭叭叭", param: "叭叭叭" },
           { text: "捏捏捏", param: "捏捏捏" },
           { text: "嘟嘟嘟", param: "嘟嘟嘟" }
@@ -65,6 +69,18 @@ const sections = [
         ],
         [
           { text: "汉堡～起司汉堡", param: "汉堡～起司汉堡" },
+        ],
+        [
+          { text: "tung tung tung sahur", param: "tungtung" },
+        ],
+        [
+          { text: "go go go 刷牙咯", param: "刷牙咯" },
+        ],
+        [
+          { text: "黑咖啡品味有多浓", param: "黑咖啡" },
+        ],
+        [
+          { text: "谁给我拳头 谁给我馒头", param: "拳头馒头" },
         ],
       ]
     },
@@ -103,6 +119,11 @@ const sections = [
           { text: "吃吃鸟蛋", param: "吃吃鸟蛋" }
         ],
         [
+          { text: "换七play", param: "换七play" },
+          { text: "大马头", param: "大马头" },
+          { text: "开一局", param: "开一局" }
+        ],
+        [
           { text: "妈咪妈咪哄", param: "妈咪妈咪哄" },
           { text: "打出来了", param: "打出来了" },
           { text: "我是逆蝶", param: "我是逆蝶" },
@@ -113,6 +134,12 @@ const sections = [
         ],
         [
           { text: "听不懂中国话是吧", param: "听不懂中国话是吧" },
+        ],
+        [
+          { text: "奶！我要奶！妈妈", param: "我要奶" },
+        ],
+        [
+          { text: "漏啊！我叫你漏！", param: "听不懂中国话是吧" },
         ],
       ]
     },
